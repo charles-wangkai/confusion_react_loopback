@@ -18,7 +18,7 @@
     "react-redux": "5.0.7",
     "react-redux-form": "1.16.8",
     "react-router-dom": "4.2.2",
-    "react-scripts": "^3.1.1",
+    "react-scripts": "~3.1.1",
     "react-transition-group": "2.3.0",
     "reactstrap": "5.0.0",
     "redux": "3.7.2",
@@ -33,5 +33,17 @@
     "eject": "react-scripts eject",
     "heroku-postbuild": "echo Skip build on Heroku"
   },
-  "heroku-run-build-script": true
+  "heroku-run-build-script": true,
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
